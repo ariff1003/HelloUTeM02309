@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: HelloUTeM02309
+  host: HelloUTeM02309
+  disk_quota: 1024M
+  services:
+  - ClearDB MySQL Database-q8
